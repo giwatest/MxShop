@@ -37,6 +37,7 @@ AUTH_USER_MODEL = 'users.UserProfile'
 # Application definition
 
 INSTALLED_APPS = [
+    'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -48,7 +49,7 @@ INSTALLED_APPS = [
     'apps.trade.apps.TradeConfig',
     'apps.user_operation.apps.UaserOperationConfig',
     'crispy_forms',
-    'xadmin',
+    'xadmin'
 ]
 
 MIDDLEWARE = [

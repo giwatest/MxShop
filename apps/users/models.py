@@ -27,7 +27,7 @@ class UserProfile(AbstractUser):
 
     # 设置模型的返回值
     def __str__(self):
-        return self.name
+        return self.username
 
 
 class VerifyCode(models.Model):
